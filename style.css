@@ -1,0 +1,50 @@
+.container {
+  background-color: whitesmoke;
+  height: 300px;
+  width: 300px;
+}
+
+.container:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+.container2 {
+  background-color: gray;
+  font-size: 4em;
+  height: 400px;
+  width: 500px;
+}
+
+.container2:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+/* @media (max-width: 600px) {
+
+.container {
+  background-color: red;
+}
+
+.container2 {
+  font-size: 2em;
+  height: 300px;
+  width: 300px;
+}
+
+} */
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+
+.container {
+  background-color: yellowgreen;
+  height: 250px;
+  width: 250px;
+}
+
+.container2 {
+  font-size: 1em;
+}
+
+}
